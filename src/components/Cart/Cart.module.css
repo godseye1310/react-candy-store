@@ -1,0 +1,55 @@
+.cartList {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.cartList li {
+	font: inherit;
+	font-size: large;
+	border-style: none;
+	border-bottom: 1px solid grey;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cartList li h5 {
+	margin: 0.5rem 0 0.5rem;
+}
+
+.cartTotal {
+	font: inherit;
+	font-size: large;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btn {
+	text-align: end;
+	margin-top: 0.5rem;
+}
+
+.btn button {
+	font: inherit;
+	font-size: larger;
+	font-weight: bolder;
+	color: white;
+	margin-left: 1.5rem;
+	padding: 0.5rem;
+	width: 150px;
+	background-color: brown;
+	border: 1px solid brown;
+	border-radius: 30px;
+}
+
+.btn button:hover {
+	background-color: #5a1a01;
+	border-color: #5a1a01;
+	color: white;
+}
+
+.btn .btn-close {
+	color: brown;
+	background-color: white;
+}

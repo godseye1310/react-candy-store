@@ -1,0 +1,9 @@
+.list {
+	margin: 1.5rem 15rem 3rem;
+}
+
+.list ul {
+	list-style: none;
+	padding: 1.5rem 2rem 0;
+	margin: 0;
+}

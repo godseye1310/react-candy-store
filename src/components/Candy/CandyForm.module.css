@@ -1,0 +1,31 @@
+.form {
+	margin: 3rem auto;
+	padding: 2rem;
+	width: 90%;
+	max-width: 40rem;
+	position: relative;
+	margin-top: -15rem;
+
+	border-radius: 15px;
+	box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.form label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.form input {
+	font: inherit;
+	display: block;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 0.15rem;
+	margin-bottom: 0.5rem;
+}
+
+.forminput:focus {
+	outline: none;
+	border-color: chocolate;
+}
