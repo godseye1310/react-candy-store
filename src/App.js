@@ -16,7 +16,9 @@ function App() {
 	return (
 		<ContextProvider>
 			<Header onShowCart={cartDisplayHandler} />
+
 			{cartDisplay && <Cart onCloseCart={cartDisplayCloser} />}
+
 			<Candy />
 		</ContextProvider>
 	);

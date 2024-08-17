@@ -16,7 +16,7 @@ const Cart = (props) => {
 	};
 
 	return (
-		<ModalOverlay>
+		<ModalOverlay onClose={props.onCloseCart}>
 			<ul className={styles.cartList}>
 				{cartCtx.cartItem.map((item) => {
 					return (

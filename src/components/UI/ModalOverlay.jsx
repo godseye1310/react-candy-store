@@ -10,6 +10,7 @@ const ModalContent = (props) => {
 	return <Card className={styles.modalContent}>{props.children}</Card>;
 };
 const modalPortalID = document.getElementById("overlay");
+
 const ModalOverlay = (props) => {
 	return (
 		<>
