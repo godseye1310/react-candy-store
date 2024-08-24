@@ -1,9 +1,10 @@
 .list {
 	margin: 1.5rem 15rem 3rem;
+	background-color: rgba(241, 250, 250, 0.884);
 }
 
 .list ul {
 	list-style: none;
-	padding: 1.5rem 2rem 0;
+	padding: 0.5rem 1rem 0;
 	margin: 0;
 }

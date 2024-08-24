@@ -1,0 +1,52 @@
+.item {
+	font: inherit;
+	font-size: large;
+	margin: 0.5rem 1.5rem;
+	padding-bottom: 0.75rem;
+	border-style: none;
+	border-bottom: 1px solid rgb(241 121 121 / 95%);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.item h3 {
+	margin: 0.5rem 0 0.5rem;
+}
+
+.amount {
+	margin: 0rem;
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+}
+
+.amount h3 {
+	margin: 0;
+	margin-right: 2rem;
+}
+
+.qty {
+	font-size: small;
+	padding: 5px 10px;
+	background-color: lightgray;
+	border: 2px solid gray;
+	border-radius: 10px;
+}
+
+.actionBtn button {
+	width: 50px;
+	margin-left: 5px;
+	padding: 5px;
+	font-size: larger;
+	font-weight: bold;
+	border: 1px solid palevioletred;
+	border-radius: 3px;
+
+	background-color: salmon;
+}
+
+.actionBtn button:hover {
+	color: whitesmoke;
+	background-color: brown;
+}

@@ -50,6 +50,7 @@ const CandyForm = () => {
 						id="candyname"
 						value={candyName}
 						onChange={candyNameHandler}
+						required
 					/>
 				</div>
 
@@ -72,6 +73,7 @@ const CandyForm = () => {
 						id="price"
 						value={candyPrice}
 						onChange={candyPriceHandler}
+						required
 					/>
 				</div>
 				<div>

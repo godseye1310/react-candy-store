@@ -8,6 +8,7 @@
 
 	border-radius: 15px;
 	box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+	background-color: rgb(241 121 121 / 95%);
 }
 
 .form label {
@@ -20,12 +21,14 @@
 	font: inherit;
 	display: block;
 	width: 100%;
-	border: 1px solid #ccc;
-	padding: 0.15rem;
+	border: 0px solid #ccc;
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
 	margin-bottom: 0.5rem;
+	background-color: rgba(10, 105, 105, 0.5);
 }
 
-.forminput:focus {
-	outline: none;
-	border-color: chocolate;
+.form input:focus-visible {
+	outline: 3px solid rgba(178, 34, 34, 0.693);
+	/* border-color: rgba(210, 105, 30, 0.863);  rgb(225 84 232 / 43%)*/
 }

@@ -7,11 +7,11 @@ const Header = (props) => {
 	return (
 		<>
 			<header className={styles.header}>
-				<h1>ReactCandy</h1>
+				<h1>ReactCandy Store</h1>
 				<CandyCartButton onClick={props.onShowCart} />
 			</header>
 			<div className={styles.candyImage}>
-				<img src={candyImg} alt="A table full with tasty food" />
+				<img src={candyImg} alt="Come have some Candies" />
 			</div>
 		</>
 	);

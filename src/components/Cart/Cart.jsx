@@ -34,7 +34,7 @@ const Cart = (props) => {
 			</ul>
 			<div className={styles.cartTotal}>
 				<h2>Total Amount</h2>
-				<h2>{cartCtx.amount}</h2>
+				<h2>₹ {cartCtx.amount}</h2>
 			</div>
 			<div className={styles.btn}>
 				<button className={styles["btn-close"]} type="button" onClick={props.onCloseCart}>

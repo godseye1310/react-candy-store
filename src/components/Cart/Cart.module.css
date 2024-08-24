@@ -3,23 +3,12 @@
 	margin: 0;
 	padding: 0;
 }
-.cartList li {
-	font: inherit;
-	font-size: large;
-	border-style: none;
-	border-bottom: 1px solid grey;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.cartList li h5 {
-	margin: 0.5rem 0 0.5rem;
-}
 
 .cartTotal {
 	font: inherit;
 	font-size: large;
 	font-weight: bold;
+	margin: 0rem 1.5rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -27,7 +16,7 @@
 
 .btn {
 	text-align: end;
-	margin-top: 0.5rem;
+	margin: 0.5rem 1.5rem 0;
 }
 
 .btn button {

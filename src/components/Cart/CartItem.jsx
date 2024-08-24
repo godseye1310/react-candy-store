@@ -6,13 +6,13 @@ const CartItem = (props) => {
 		props.onMinus(props.id);
 	};
 	return (
-		<li>
+		<li className={styles.item}>
 			<div>
-				<h5>{props.name}</h5>
-				<h5>
-					${props.price}
+				<h3>{props.name}</h3>
+				<div className={styles.amount}>
+					<h3>₹ {props.price}</h3>
 					<span className={styles.qty}>x {props.qty}</span>
-				</h5>
+				</div>
 			</div>
 			<div className={styles.actionBtn}>
 				<button onClick={candyMinusHandler}>-</button>
